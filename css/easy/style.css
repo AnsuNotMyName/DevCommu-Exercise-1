@@ -1,0 +1,161 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.center {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.border {
+    border: 10px solid green;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    box-shadow: 7px 7px #000000;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    height: 400px;
+    background-color: #ffffff;
+    flex-direction: column;
+    ;
+    box-shadow: 0px 0px 50px #50505050;
+}
+
+.somchai{
+    height: 200px;
+    background-color: #5baeb7
+}
+.somying{
+    height: 80px;
+    background-color: #ffb3b3
+}
+
+.top {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+}
+.img2 {
+    background-color: white;
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 100px;
+    width: 70px;
+    padding: 20px;
+    height: auto;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 10px 20px 20px 20px;
+}
+
+.bottom2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: bottom;
+
+}
+
+.contact-box {
+    display: flex;
+    background-color: #10101010;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.head-box{
+    display: inline-block;
+    line-height: 0px;
+}
+
+.text{
+    color: #404040;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #202020;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: -10px;
+}
+
+.link-box{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: calc(100% - 120px);
+}
+.link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-img{
+    background-color: white;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
